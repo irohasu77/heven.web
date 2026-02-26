@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ヘブンバーンズレッドの軌跡</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="index">
+
+    <h1 class="home">ヘブンバーンズレッド　ホーム</h1>
+
+    <div class="nav-buttons">
+        <button onclick="location.href='index.html'">表紙</button>
+        <button onclick="location.href='page2.html'">記録</button>
+        <button onclick="location.href='page3.html'">第一章</button>
+        <button onclick="location.href='page4.html'">第二章</button>
+        <button onclick="location.href='page5.html'">第三章</button>
+        <button onclick="location.href='page6.html'">第四章前編</button>
+        <button onclick="location.href='page7.html'">第四章後編</button>
+        <button onclick="location.href='page8.html'">第五章前編</button>
+        <button onclick="location.href='page9.html'">第五章中編</button>
+        <button onclick="location.href='page10.html'">第五章後編</button>
+    </div>    
+
+    <div class="content">
+        <img src="images/img_mv_4th-anniv.jpg" alt="４周年イラスト">
+    </div>
+    
+    <h2>ゲーム紹介</h2>
+
+    <div class="content">
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/CUuv6OErMUc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <h3>キャラクター紹介</h3>
+
+    <div class="tabs">
+        <ul class="tab-list">
+            <li class="tab-item active" onclick="showTab('pages/31A.html')">31A</li>
+            <li class="tab-item" onclick="showTab('pages/31B.html')">31B</li>
+            <li class="tab-item" onclick="showTab('pages/31C.html')">31C</li>
+            <li class="tab-item" onclick="showTab('pages/31D.html')">31D</li>
+        </ul>
+    </div>
+
+    <div id="content"></div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
